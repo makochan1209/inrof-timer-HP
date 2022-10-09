@@ -1,0 +1,91 @@
+@font-face {
+  font-family: "DSEG";
+  src: url("../font/DSEG7Classic-Bold.woff") format('woff');
+}
+
+body
+{
+	background-color: #000000;
+}
+.body-container
+{
+	width: 980px;
+	margin: 0 auto;
+}
+
+.bar
+{
+	margin: 0;
+}
+
+.retry
+{
+	color: #ff0000;
+	position: absolute;
+	font-size: 50px;
+	margin-top: 60px;
+	margin-left: -210px;
+}
+
+.godhand
+{
+	color: #ffffff;
+	position: absolute;
+	font-size: 35px;
+	margin-top: 15px;
+	margin-left: -210px;
+}
+
+.timer
+{
+	margin: 0;
+}
+
+.countdown
+{
+	margin-top: 0px;
+	margin-left: -70px;
+	font-family: "DSEG";
+	width: 980px;
+	color: #ff831b;
+}
+
+#countdown_min
+{
+	font-size: 236px;
+}
+
+#countdown_msec
+{
+	font-size: 118px;
+	margin-left: -5px;
+}
+
+#countdown_status
+{
+	margin-top: 0px;
+	font-size: 90px;
+	text-align: center;
+	color: #ffffff;
+}
+
+.status
+{
+	margin: 0;
+}
+
+.limit_time
+{
+	color: #ffffff;
+}
+
+.footer
+{
+//	position: absolute;
+	width: 980px;
+	height: 30px;
+	bottom: 0px;
+	margin-top: 5px;
+//	margin-bottom: 0px;
+//	background-color: #ffffff;
+}
