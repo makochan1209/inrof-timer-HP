@@ -5,11 +5,12 @@
 
 body
 {
+	font-family: 'Noto Sans JP', sans-serif;
 	background-color: #000000;
 }
 .body-container
 {
-	width: 980px;
+	width: 100vw;
 	margin: 0 auto;
 }
 
@@ -22,18 +23,18 @@ body
 {
 	color: #ff0000;
 	position: absolute;
-	font-size: 50px;
-	margin-top: 60px;
-	margin-left: -210px;
+	font-size: calc(5000vw / 980);
+	margin-top: calc(6000vw / 980);
+	margin-left: calc(-19000vw / 980);
 }
 
 .godhand
 {
 	color: #ffffff;
 	position: absolute;
-	font-size: 35px;
-	margin-top: 15px;
-	margin-left: -210px;
+	font-size: calc(3500vw / 980);
+	margin-top: calc(1500vw / 980);
+	margin-left: calc(-19000vw / 980);
 }
 
 .timer
@@ -43,28 +44,28 @@ body
 
 .countdown
 {
-	margin-top: 0px;
-	margin-left: -70px;
+	margin-top: 0;
+	margin-left: calc(-7000vw / 980);
 	font-family: "DSEG";
-	width: 980px;
+	width: 100vw;
 	color: #ff831b;
 }
 
 #countdown_min
 {
-	font-size: 236px;
+	font-size: calc(23600vw / 980);
 }
 
 #countdown_msec
 {
-	font-size: 118px;
-	margin-left: -5px;
+	font-size: calc(11800vw / 980);
+	margin-left: calc(-500vw / 980);
 }
 
 #countdown_status
 {
-	margin-top: 0px;
-	font-size: 90px;
+	margin-top: 0;
+	font-size: calc(9000vw / 980);
 	text-align: center;
 	color: #ffffff;
 }
@@ -77,15 +78,4 @@ body
 .limit_time
 {
 	color: #ffffff;
-}
-
-.footer
-{
-//	position: absolute;
-	width: 980px;
-	height: 30px;
-	bottom: 0px;
-	margin-top: 5px;
-//	margin-bottom: 0px;
-//	background-color: #ffffff;
 }
