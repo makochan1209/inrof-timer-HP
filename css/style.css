@@ -10,7 +10,7 @@ body
 }
 .body-container
 {
-	width: 100vw;
+	width: 100%;
 	margin: 0 auto;
 }
 
@@ -47,7 +47,7 @@ body
 	margin-top: 0;
 	margin-left: calc(-7000vw / 980);
 	font-family: "DSEG";
-	width: 100vw;
+	width: 100%;
 	color: #ff831b;
 }
 
