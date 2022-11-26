@@ -16,6 +16,17 @@ myGodhand=0;	//神の手数
 myRetry_new=0;	//変更後のリトライ数
 myGodhand_new=0;	//変更後の神の手数
 
+
+
+document.addEventListener('keydown', keypress_event);
+
+function keypress_event(e) {
+	if (e.key === 'r') myRetryone();
+	else if (e.key === 'n') myNext();
+	else if (e.key === 'w') myReset();
+	else if (e.key === 'Enter') myGo();
+}
+
 function time_read(){	//制限時間読み込み
 	mySelect = document.myForm.myMenu.selectedIndex;
 	myTim = eval ( document.myForm.myMenu.options[mySelect].value );
